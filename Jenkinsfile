@@ -17,21 +17,21 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compiling Java classes...'
-                sh 'mvn clean compile'
+                sh '/opt/homebrew/opt/maven/bin/mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running JUnit Tests...'
-                sh 'mvn test'
+                sh '/opt/homebrew/opt/maven/bin/mvn test'
             }
         }
 
         stage('Package Jar') {
             steps {
                 echo 'Packaging application into JAR...'
-                sh 'mvn package -DskipTests'
+                sh '/opt/homebrew/opt/maven/bin/mvn package -DskipTests'
             }
         }
     }
