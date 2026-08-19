@@ -2,7 +2,7 @@ package com.example;
 
 public class App {
     public static String getGreeting() {
-        return "Hello, Real-time Webhook Trigger!";
+        return "Hello, Real-time Webhook Trigger!\nupdate";
     }
 
     public static void main(String[] args) {
