@@ -2,7 +2,7 @@ package com.example;
 
 public class App {
     public static String getGreeting() {
-        return "Hello, Jenkins Java CI/CD Pipeline!\nPoll SCM trigger jenkins\ngit update";
+        return "Hello, Jenkins Java CI/CD Pipeline!\nPoll SCM trigger jenkins\nshow git update";
     }
 
     public static void main(String[] args) {
