@@ -6,6 +6,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest {
     @Test
     public void testGreeting() {
-        assertEquals("Hello, Jenkins Java CI/CD Pipeline!", App.getGreeting());
+        assertEquals("Hello, Jenkins Java CI/CD Pipeline!\npoll scm trigger jenkins", App.getGreeting());
     }
 }
