@@ -2,7 +2,7 @@ package com.example;
 
 public class App {
     public static String getGreeting() {
-        return "Hello, Jenkins Java CI/CD Pipeline!\nPoll SCM trigger jenkins\nshow git update";
+        return "Hello, Real-time Webhook Trigger!";
     }
 
     public static void main(String[] args) {
