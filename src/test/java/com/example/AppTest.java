@@ -6,6 +6,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest {
     @Test
     public void testGreeting() {
-        assertEquals("Hello, Real-time Webhook Trigger!", App.getGreeting());
+        assertEquals("Hello, Real-time Webhook Trigger!\nupdate", App.getGreeting());
     }
 }
